@@ -24,7 +24,7 @@ El sitio se adapta a pantallas de dispositivos móviles, tablets y escritorio. U
 
 ## 📸 Captura de pantalla (opcional)
 
-![screenshot](assets/PortolioScreenShoot.png.png)
+![Vista del portfolio](assets/screenshot.png)
 
 ## 🚀 En desarrollo
 
