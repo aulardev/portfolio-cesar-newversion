@@ -184,6 +184,8 @@ body {
   font-size: 1.5em;
   font-weight: bold;
   padding: 0.5rem 0;
+  align-items: center;
+   
 }
 
 .about__paragraph {
@@ -192,9 +194,76 @@ body {
   max-width: 500px;
 }
 
+/* SKILLS SECTION */
+
+.skills {
+    padding-top: 0;
+}
+  
+ .skills__title{
+    color: black;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+   .skills-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  } 
+  
+  .skills-article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+  }
 
 
-/* A partir de 768 px cambia el layout para Tablets y Desktop */ 
+  .skills-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+----
+  
+
+  article .icon {
+    cursor: default;
+  }
+
+
+
+  /* ICONS */ 
+
+ .icon {
+    cursor: pointer;
+    height: 2rem;
+ }
+
+ .details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgba(0, 0, 255, 0.516);
+    text-align: center;
+}
+
+
+
+/* A PARTIR DE 768 px CAMBIA EL LAYOUT PARA TABLET Y DESKTOP */ 
 
 
 @media (min-width:768px) {
@@ -315,6 +384,22 @@ body {
   line-height: 1.6;
   display: inline;
 }
+
+/* SECTION SKILLS */
+
+ .skills__title{
+    color: black;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
 }
+
+
+
+
+
 
 
