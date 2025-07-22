@@ -33,6 +33,7 @@ body {
 
 /* NAVIGATION */
 
+
 /* MOBILE FIRST */
 
 
@@ -239,11 +240,9 @@ body {
 }
 
 
----- article .icon {
+article .icon {
   cursor: default;
 }
-
-
 
 /* ICONS */
 
@@ -361,16 +360,13 @@ body {
     justify-content: center;
     gap: 2rem;
     list-style: none;
-
     transform: unset;
     transition: none;
-
   }
 
   .nav__list--show {
     transform: unset;
   }
-
 
   .nav__links {
     text-decoration: none;
@@ -475,8 +471,6 @@ body {
     margin-bottom: 2rem;
     text-align: center;
   }
-
-
 
 
 /* SECTION PROJECTS */
